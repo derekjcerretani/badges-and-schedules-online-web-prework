@@ -22,6 +22,6 @@ end
 def printer(names)
   badge = batch_badge_creator(names)
   schedule = assign_rooms(names)
-    badge.each { |bad| puts bad}
+    badge.each { |badge| puts badge}
     schedule.each { |assignment| puts assignment}
 end
