@@ -21,7 +21,7 @@ def assign_rooms(array)
   return room_assignments
 end
 
-def printer
+def printer(batch_badge_creator, assign_rooms)
   badges_and_room_assignments = []
   badges_and_room_assignments.push(batch_badge_creator, assign_rooms)
   puts badges_and_room_assignments
