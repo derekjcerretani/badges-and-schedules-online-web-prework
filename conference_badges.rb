@@ -21,7 +21,7 @@ def assign_rooms(array)
   return room_assignments
 end
 
-def printer
-  puts batch_badge_creator(list)
-  puts assign_rooms(room_assignments)
+def printer(batch_badge_creator, assign_rooms)
+  puts list
+  puts room_assignments
 end
